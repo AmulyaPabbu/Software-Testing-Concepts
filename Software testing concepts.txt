@@ -51,7 +51,6 @@ System design: based on the requirements document, the design document is prepar
 Development: based on the design document, implementation starts.
 Testing: after implementation, testing the software.
 Deployment & maintenance: deploy the software in customer's environment and customer starts using the software.
-
 Advantages:
 *Quality of the product will be good.
 *Since requirement changes are not allowed, chances of bugs are less.
@@ -64,7 +63,6 @@ Disadvantages:
 *Spiral model: the process is followed in more than three cycles to release different versions of softwares. It involves,
 Requirement analysis, prototype, development & testing, customer evaluation, planning, risk analysis, engineering & execution, evaluation.
 It overcomes the drawbacks of waterfall model. Whenever there is a dependency on modules, we follow this model.
-
 Advantages:
 *Testing is done after every cycle before going to the next cycle.
 *Customer gets to use the software for every module.
