@@ -1,0 +1,144 @@
+Foundational principles are the basic roots and may sound like cliche. But I like cliches because they are true. And stronger the roots, stronger the tree!
+
+Mentioning some basic foundational aspects of Software Testing.
+
+Program: is a set of instructions to a computer.
+Software: is a collection of programs that help us to perform a task.
+Types of software:
+*System software: device drivers, operating systems, utilities and servers.
+*Programming software: compilers, debuggers and interpreters.
+*Application software: web apps, mobile apps and desktop apps.
+
+Software testing: is a part of Software Development Life Cycle(SDLC). It is an activity to detect and identify the defects in the software, so that we could deliver the quality product to the customer/client.
+
+Well what is software quality: customer justification, whether the product is working according to their expectations or not.
+What are its parameters: it must be,
+*Bug-free.
+*Delivered on time.
+*Within budget.
+*Meets customer expectations.
+*Maintainable(user-friendly in their environment).
+
+Difference betweeen a Project and a Product: if the software is developed for a specific client based on their requirements then it is called a project. Whereas if the software is developed for multiple customers based on market requirements then it is called as a product.
+
+Error: is a human mistake while writing the program.
+Bug: while testing if any action misbehaves other than the expected action(for example: logs in even after providing incorrect credentials).
+Failure: the task which end user identifies that it is not according to their expectations.
+
+Why does the software has bugs:
+*Programming errors.
+*Software complexities.
+*Changing requirements.
+*Lack of skilled testers.
+*Miscommunication or no communication between the documentation, development and testing phases.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+"When the roots are deep, there is no reason to fear the wind." Ending the day with this beautiful quote.
+
+Continuation of foundational aspects of Software Testing.
+
+SDLC: Software Development Life Cycle is a process followed by software industries to design, develop and test the softwares. It's phases are,
+*Requirement Analysis.
+*Design.
+*Development.
+*Testing.
+*Deployment & Maintenance.
+
+Models in SDLC:
+*Waterfall model: is a sequential software development process model which follows a linear and structured approach. It involves,
+Requirements gathering: collecting the requirements from customer and preparing the Software requirement specification(SRS) document.
+System design: based on the requirements document, the design document is prepared.
+Development: based on the design document, implementation starts.
+Testing: after implementation, testing the software.
+Deployment & maintenance: deploy the software in customer's environment and customer starts using the software.
+
+Advantages:
+*Quality of the product will be good.
+*Since requirement changes are not allowed, chances of bugs are less.
+*Initial investement is low since the testers are hired in later stages.
+Disadvantages:
+*Requirement changes are not allowed.
+*If there is a defect in requirements phase then that will be continued in later stages.
+*Total investment is high because rework on a defect is time consuming.
+
+*Spiral model: the process is followed in more than three cycles to release different versions of softwares. It involves,
+Requirement analysis, prototype, development & testing, customer evaluation, planning, risk analysis, engineering & execution, evaluation.
+It overcomes the drawbacks of waterfall model. Whenever there is a dependency on modules, we follow this model.
+
+Advantages:
+*Testing is done after every cycle before going to the next cycle.
+*Customer gets to use the software for every module.
+*Requirement changes are allowed after every cycle before going to the next cycle.
+Disadvantages:
+*Requirement changes are not allowed within the cycle.
+*Every cycle of spiral model looks like waterfall model.
+
+Prototype model: nothing but a blueprint of software.
+*Requirements are gathered from customer.
+*A prototype is developed.
+*Demonstrating it to the customer.
+*If the customer is satisfied, then we design, develop and test the software.
+This model comes between waterfall and spiral models.
+
+V model: verification and validation model.
+Verification: 
+*Checks whether we are building the right product(not yet ready) or not.
+*Focuses on documentation.
+*Typically involves static testing techniques(testing the project related documents like BRS, SRS, HLD & LLD through processes like review, walkthrough and inspection).
+Validation:
+*Checks whether we are building the product(ready) right or not.
+*Focuses on software.
+*Involves dynamic testing techniques( testing the actual software through unit, integration, system and UAT testings).
+
+White-box testing technique: testing the code through unit and integration testings.
+Black-box testing technique: testing the functionality and flow through system and UAT testings.
+
+Quality Assurance vs Quality Control:
+*QA is process related, QC is actual testing of software.
+*QA is building in quality, QC is testing for quality.
+*QA is preventing the defects, QC is detecting the defects.
+*QA is process oriented, QC is product oriented.
+*QA is entire lifecycle, QC is testing part of software lifecycle.
+
+Quality Engineering: is writing the automation scripts for testing the software.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
