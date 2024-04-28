@@ -1,2 +1,2 @@
 # Software-Testing-Concepts
-Here I'm providing the software testing concepts from basics.
+Here I'm providing software testing concepts from basics.
