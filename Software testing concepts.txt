@@ -313,6 +313,111 @@ Deliverables:
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+In general software testing involves:
+*Project introduction.
+*Understanding and exploring the functionality.
+*Test plan.
+*Writing the test scenarios.
+*Writing test cases and reviews.
+*Environment setup and build deployment.
+*Test execution.
+*Bug tracking and reporting.
+*Sanity testing, retesting and regression testing.
+*Test sign off.
+
+Seven principles of software testing:
+*Start the testing at the early stages. Means from the beginning when you get the requirements.
+*Genuinely test the software in order to find defects.
+*It is highly impossible to give bug-free software to the customer.
+*Should not do exhaustive testing. Means you should not use the same type of data for testing every time.
+*Testing is context based. Means based on the type of application, you have to decide what types of testing should be conducted.
+*The process should be followed as pesticide paradox. Means you cannot execute the same test cases for longer run, you need to update the test cases for every cycle/release in order to find more defects.
+*The process should be followed as defect clustering. Means some modules contain most of the defects and with experience we can identify such risky modules. 80% of defects are found in 20% of modules.
+
+QA activities in testing:
+*Understanding the requirements and functional specifications of the application.
+*Identifying required test scenarios.
+*Designing test cases to validate the app.
+*Setting up test environment(test bed).
+*Executing test cases to validate the app.
+*Logging the test results(how many cases passed/failed).
+*Defect reporting and tracking.
+*Retest the fixed defects from previous build.
+*Perform various types of testing on the application.
+*Report to team lead with the status of assigned tasks.
+*Participate in regular team meetings.
+*Creating automation scripts.
+*Providing suggestions/recommendations/opinions about whether or not the application is ready for production.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Agile model/Agile methodology/Agile process: An iterative or incremental process.
+*Customer doesn't need to wait for longer period of time.
+*We develop, test and release pieces of software with few number of features.
+*We can accept or accommodate requirement changes.
+There will be good communication between customer, business analyst, developers and testers.
+
+Advantages:
+*Requirement changes are allowed in any stage of development.
+*Releases will be very fast(weekly).
+*Easy model to adopt.
+
+Disadvantages:
+Less focus on design and documentation since we deliver software faster.
+
+Scrum: A framework through which we build the software product by following agile principles. Includes a group of people called scrum team(5 to 9 people).
+-Product owner:
+*Defines the features of the product.
+*Prioritizes the features according to market value.
+*Adjusts features and priority after every iteration as needed.
+*Accepts/rejects the work results.
+
+-Scrum master: Main role in facilitating and driving the agile process.
+
+-Developers and testers: Develop and test the software.
+
+Scrum terminology:
+*User story: A feature/module in software.
+*Epic: A collection of user stories.
+*Product backlog: Contains a list of user stories prepared by product owner.
+*Sprint/Iteration: Period of time to complete the user stories decided by product owner and team, usually 2 to 4 weeks of time.
+*Sprint planning meeting: Meeting conducted with team to define what can be delivered in the sprint duration.
+*Sprint backlog: List of committed user stories by developer/QA for specific sprint.
+*Scrum meeting: Meeting conducted by scrum master everyday for 15 minutes. It includes discussions like:
+-What did you do yesterday.
+-What will you do today.
+-Are there any impediments in your way.
+*Sprint retrospective meeting: Meeting conducted after the completion of sprint. The entire team including scrum master and product owner should participate. Discussions about what went well, what improvements can be made for upcoming sprints, etc. are done.
+*Story point: A rough estimation of user stories given by developer and QA in the form of Fibonacci series(0, 1, 1, 2, 3, 5, 8,....).
+*Burndown chart: Shows how much work is remaining in the sprint and is maintained by the scrum master daily.
+
+Roles: product owner, scrum master and team.
+Artifacts: product backlog, sprint backlog and burndown chart.
+Ceremonies: sprint planning meeting, daily scrum and sprint review.
+
+Scrum board: contains Stories, To-do, In-progress, Testing, Done, etc.
+
+Definition of Ready(DOR):
+*User story is clear, it is feasible, it is testable, acceptance criteria is defined, dependencies identified, sized by developer team.
+*Scrum team accepts the user experience artifacts.
+*Performance criteria is identified where appropriate.
+*Team has a good idea as to what it will mean to demo the user story.
+
+Definition of Done(DOD):
+*Code produced(all to-do items in code completed).
+*Code commented, checked-in and run against current version in source control.
+*Peer reviewed(or produced with pair programming) and meeting development standards.
+*Builds without errors.
+*Unit tests written and passing.
+*Deployed to system test environment and system tests passed.
+*Deployed to UAT test environment and UAT tests passed and signed off as meeting requirements.
+*Any changes in build/deployment/configuration are implemented/documented/communicated.
+*Relevant documentation/diagrams produced or updated.
+*Remaining hours of task set to zero and task closed.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
